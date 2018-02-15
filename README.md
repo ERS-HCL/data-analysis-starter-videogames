@@ -1,5 +1,5 @@
 # Gamers don't die, they respawn
-----------
+
 This repository is about simple analysis about the game titles, platforms and sales
 
 > Dataset can be downloaded from  [here](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)
@@ -22,5 +22,5 @@ This repository is about simple analysis about the game titles, platforms and sa
 ---
 
 
-### 
+###
 ![Region Sales](images/videogames_region.png "Original Image")
