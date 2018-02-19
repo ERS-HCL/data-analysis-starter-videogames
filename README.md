@@ -1,10 +1,19 @@
 # Gamers don't die, they respawn
 
-This repository is about simple analysis about the game titles, platforms and sales
+## Objective
+This repo is about simple data analysis of video game titles, platforms and their sales in various parts of the world. By leveraging the wonderful python libraries for data analysis we gain deep insights into the data.
+
+Some areas worth exploring:
+* Titles which are available for more than one platform
+* Top contending platform
+* Which type of platform is popular?
+* Top selling genres
+* Top publishers by Global Sales
+
 
 > Dataset can be downloaded from  [here](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)
 
-## Data Decription (as available in Kaggle)
+## Data Decription (as available on Kaggle)
 ### Context
 Motivated by Gregory Smith's web scrape of VGChartz [Video Games Sales](https://www.kaggle.com/gregorut/datasets), this data set simply extends the number of variables with another web scrape from [Metacritic](http://www.metacritic.com/browse/games/release-date/available). Unfortunately, there are missing observations as Metacritic only covers a subset of the platforms. Also, a game may not have all the observations of the additional variables discussed below. Complete cases are ~ 6,900
 ### Content
