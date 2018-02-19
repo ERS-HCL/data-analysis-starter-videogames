@@ -4,6 +4,19 @@ This repository is about simple analysis about the game titles, platforms and sa
 
 > Dataset can be downloaded from  [here](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)
 
+## Data Decription (as available in Kaggle)
+### Context
+Motivated by Gregory Smith's web scrape of VGChartz [Video Games Sales](https://www.kaggle.com/gregorut/datasets), this data set simply extends the number of variables with another web scrape from [Metacritic](http://www.metacritic.com/browse/games/release-date/available). Unfortunately, there are missing observations as Metacritic only covers a subset of the platforms. Also, a game may not have all the observations of the additional variables discussed below. Complete cases are ~ 6,900
+### Content
+Alongside the fields: Name, Platform, Year_of_Release, Genre, Publisher, NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales, we have:-
+
+* Critic_score - Aggregate score compiled by Metacritic staff
+* Critic_count - The number of critics used in coming up with the Critic_score
+* User_score - Score by Metacritic's subscribers
+* User_count - Number of users who gave the user_score
+* Developer - Party responsible for creating the game
+* Rating - The [ESRB](https://www.esrb.org/) ratings
+
 ## Prerequiste
 1. Python 3
 2. Jupyter Notebook
@@ -12,15 +25,24 @@ This repository is about simple analysis about the game titles, platforms and sa
 5. Matplotlib (for visualization)
 6. Seaborn (for visualization)
 
+
+### View the [Notebook](videogamesales.ipynb)
+
+## How to run the Notebook
+1. Download and install [Anaconda](https://anaconda.org). It contains all the relevant packages mentioned in Prerequiste section
+2. Download the [dataset](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings) and [notebook](videogamesales.ipynb) and run in Jupyter Notebook
+
 ### Data view
 
 ![Dataframe head](images/videogamesdf.png "Original Image")
 ---
-
+## Plots from notebook
 ### Most Number if Titles per Platform
 ![Most Number of titles](images/videogames_titles.png "Original Image")
 ---
 
 
-###
 ![Region Sales](images/videogames_region.png "Original Image")
+
+## TODO
+- [ ] Use predictive modelling to estimate future sales
