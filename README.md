@@ -40,7 +40,7 @@ Alongside the fields: Name, Platform, Year_of_Release, Genre, Publisher, NA_Sale
 ## How to run the Notebook
 1. Download and install [Anaconda](https://anaconda.org). It contains all the relevant packages mentioned in Prerequiste section
 2. Download the [dataset](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings) and this repository
-3. Open terminal/command prompt and navigate to the downloaded repository, then run "juupyter notebook" command in the terminal
+3. Open terminal/command prompt and navigate to the downloaded repository, then run "jupyter notebook" command in the terminal
 4. Jupyter file explorer will open in the browser. Click on the notebook then run Cell-->Run All from the menu.
 
 ### Data view
